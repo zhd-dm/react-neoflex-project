@@ -1,0 +1,43 @@
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 466px;
+    margin-bottom: 32px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.input-title {
+    font-weight: 800;
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: #ADADAD;
+    letter-spacing: 3.5px;
+}
+
+.input-content {
+    position: relative;
+    &>img {
+        position: absolute;
+        margin: 5px;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.input-text {
+    height: 48px;
+    width: 100%;
+    background: #F0F0F0;
+    border-radius: 16px;
+    border: 0;
+    padding: 8px 16px;
+    &::placeholder {
+        font-size: 18px;
+        line-height: 22px;
+        color: #2D3436;
+    }
+}

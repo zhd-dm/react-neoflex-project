@@ -1,0 +1,12 @@
+.main-content-wrapper {
+    min-height: calc(100vh - 80px);
+    display: flex;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3EDE1F7;
+    width: 50%;
+}

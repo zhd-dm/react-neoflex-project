@@ -1,0 +1,26 @@
+.login-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.logo-login-form {
+    margin-bottom: 96px;
+}
+
+.login-form {
+    width: 466px;
+}
+
+.keep-logged {
+    display: flex;
+    align-items: center;
+    color: #2D3436;
+    &>input {
+        width: 18px;
+        height: 18px;
+        margin-right: 11px;
+    }
+}
