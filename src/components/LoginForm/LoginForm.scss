@@ -12,6 +12,17 @@
 
 .login-form {
     width: 466px;
+    .button-wrapper {
+        width: 100%;
+    }
+}
+
+.input-title {
+    font-weight: 800;
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: #ADADAD;
+    letter-spacing: 3.5px;
 }
 
 .keep-logged {

@@ -1,0 +1,12 @@
+.claims-list {
+    display: flex;
+    justify-content: space-between;
+    left: 96px;
+    margin: 58px 64px 58px 160px;
+    .button-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+    }
+}

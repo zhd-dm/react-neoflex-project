@@ -6,7 +6,7 @@ import Input from '../UI/Input/Input';
 import iconSearch from '../../assets/images/icons/icon-search.svg'
 import iconBell from '../../assets/images/icons/icon-bell.svg'
 import userPhoto from '../../assets/images/user-photo.jpg'
-import iconLogOut from '../../assets/images/icons/icon-log-out.svg'
+import iconLogout from '../../assets/images/icons/icon-log-out.svg'
 
 const Header:FC = () => {
     return (
@@ -15,11 +15,22 @@ const Header:FC = () => {
                 inputTitle=''
                 placeholder='Search'
                 image={iconSearch}
+                className='header-search'
             />
-            <img src={iconBell} alt="" />
-            <img src={userPhoto} alt="" />
-            <span>Ivan Ivanov</span>
-            <img src={iconLogOut} alt="" />
+            <ul className="header-links">
+                <li className="header-link">
+                    <img src={iconBell} alt="" className='icon-bell'/>
+                </li>
+                <li className="header-link">
+                    <img src={userPhoto} alt="" className='user-photo'/>
+                </li>
+                <li className="header-link">
+                    <span className='usen-name'>Ivan Ivanov</span>
+                </li>
+                <li className="header-link">
+                    <img src={iconLogout} alt="" className='icon-logout'/>
+                </li>
+            </ul>
         </div> 
     );
 };

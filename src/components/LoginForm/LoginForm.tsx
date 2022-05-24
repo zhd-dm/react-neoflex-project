@@ -13,13 +13,15 @@ const LoginForm:FC = () => {
         <div className="login-form-wrapper">
             <img src={logoLoginForm} alt="" className='logo-login-form'/>
             <form className="login-form">
+                <span className={'input-title'}>E-MAIL</span>
                 <Input
-                    inputTitle='E-MAIL'
+                    // inputTitle='E-MAIL'
                     placeholder='Type your e-mail'
                     image={iconMail}
                 />
+                <span className={'input-title'}>PASSWORD</span>
                 <Input
-                    inputTitle='PASSWORD'
+                    // inputTitle='PASSWORD'
                     placeholder='Type your password'
                     image={iconLock}
                 />
@@ -33,7 +35,7 @@ const LoginForm:FC = () => {
                 />
                 <span className='request-registration'>
                     Not a member? 
-                    <a> Request registration.</a>
+                    <a href="sadfs"> Request registration.</a>
                 </span>
             </form>
         </div> 

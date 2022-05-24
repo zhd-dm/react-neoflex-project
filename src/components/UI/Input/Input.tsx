@@ -1,7 +1,7 @@
 import {FC} from 'react';
 import './Input.scss';
 
-interface Input {
+interface IInput {
     // children?: React.ReactNode;
     inputTitle?: string;
     placeholder: string;
@@ -10,7 +10,7 @@ interface Input {
     image?: any;
 }
 
-const Input: FC<Input> = ({
+const Input: FC<IInput> = ({
     inputTitle,
     placeholder,
     className,
@@ -18,15 +18,15 @@ const Input: FC<Input> = ({
     image
 }) => {
     return (
-        <div className="input-wrapper">
-            <span
+        <div className={"input-wrapper " + className}>
+            {/* <span
                 className={'input-title'}
             >
                 {inputTitle}
-            </span>
+            </span> */}
             <div className="input-content">
                 <input 
-                    className={'input-text ' + className}
+                    className={'input-text'}
                     placeholder={placeholder}
                 >
                 </input>

@@ -1,19 +1,10 @@
 .input-wrapper {
     display: flex;
     flex-direction: column;
-    max-width: 466px;
     margin-bottom: 32px;
     &:last-child {
         margin-bottom: 0;
     }
-}
-
-.input-title {
-    font-weight: 800;
-    font-size: 12px;
-    margin-bottom: 8px;
-    color: #ADADAD;
-    letter-spacing: 3.5px;
 }
 
 .input-content {
@@ -35,8 +26,8 @@
     border-radius: 16px;
     border: 0;
     padding: 8px 16px;
+    font-size: 18px;
     &::placeholder {
-        font-size: 18px;
         line-height: 22px;
         color: #2D3436;
     }

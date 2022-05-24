@@ -1,5 +1,33 @@
 .header-wrapper {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid #C2C2C2;
     height: 96px;
+}
+
+.header-search {
+    margin: 0;
+    margin-right: 64px;
+    width: 585px;
+    .input-text {
+        background: #C2C2C2;
+        opacity: 0.24;
+        border-radius: 16px;
+        &::placeholder {
+            line-height: 32px;
+        }
+    }
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header-link {
+        margin-right: 20px;
+        .user-photo {
+            border-radius: 50%;
+        }
+    }
 }

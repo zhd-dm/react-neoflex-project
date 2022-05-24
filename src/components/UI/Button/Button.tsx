@@ -4,7 +4,7 @@ import './Button.scss';
 interface Button {
     // children?: React.ReactNode;
     onClick?: () => void;
-    value?: string;
+    value?: any;
     className?: string;
 }
 
